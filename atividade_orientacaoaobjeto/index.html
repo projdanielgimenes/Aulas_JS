@@ -6,23 +6,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="estilo.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
         <title>Document</title>
     </head>
     <body>
-        <div class="menu">
-            <div class="titulo_menu">
+
                 <h1> Orientação a objeto</h1>
-            </div>
-        </div>
 
         <section class="container">
 
             <section class="definicao">
-                <div class="titulo">
-                    <h1>Exemplo</h1>
-                </div>
+                    <h1 class="h1">Exemplo</h1>
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
                       <h2 class="accordion-header">
@@ -67,7 +62,7 @@
                 <div class="titulo">
                     <h2>Inserido</h2>
                 </div>
-                <div class="formulario">
+                <div id="personForm" class="formulario">
                     <form action="" id="personForm" class="person_form">
                         <input type="text" name="firstName" id="firstName" class="item_form" placeholder="Nome">
                         <input type="text" name="lastName" id="lastName" class="item_form" placeholder="Sobrenome">
@@ -76,18 +71,24 @@
                     </form>
                 </div>
                 <div class="resultado_">
-                    <table class="resultado" id="textContent">
-                        <tr>
-                            <th>Nome</th>
-                            <th>Sobrenome</th>
-                            <th>Língua</th>
-                        </tr>
-                        <tr>
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
                             <td id="displayFirstName"></td>
                             <td id="displayLastName"></td>
                             <td id="displayLanguage"></td>
-                        </tr>
-                    </table>
+                          </tr>
+                        </tbody>
+                      </table>
                 </div>
                 
             </section>
@@ -96,6 +97,7 @@
         
         
         <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
     </body>
 </html>
