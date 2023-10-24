@@ -16,7 +16,7 @@ https://projdanielgimenes.github.io/Aulas_JS/imc/index.html
 https://projdanielgimenes.github.io/Aulas_JS/lacoTabuada/index.html
 
 #Js objetos
-https://projdanielgimenes.github.io/Aulas_JS/Atividade_orientacaoaoobjeto/index.html
+https://projdanielgimenes.github.io/Aulas_JS/atividade_orientacaoaobjeto/index.html
 
 
 
