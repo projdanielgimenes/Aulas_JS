@@ -18,7 +18,8 @@ https://projdanielgimenes.github.io/Aulas_JS/lacoTabuada/index.html
 #Js objetos
 https://projdanielgimenes.github.io/Aulas_JS/atividade_orientacaoaobjeto/index.html
 
-
+#Troca Imagem
+https://projdanielgimenes.github.io/Aulas_JS/troca_imagem/index.html
 
 
 
