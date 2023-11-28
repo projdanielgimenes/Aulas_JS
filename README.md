@@ -22,7 +22,7 @@ https://projdanielgimenes.github.io/Aulas_JS/atividade_orientacaoaobjeto/index.h
 https://projdanielgimenes.github.io/Aulas_JS/troca_imagem/index.html
 
 #Regex
-https://projdanielgimenes.github.io/Aulas_JS/Jquery_Regex/index.html
+https://projdanielgimenes.github.io/Aulas_JS/Jquery_RegeX/index.html
 
 
 
